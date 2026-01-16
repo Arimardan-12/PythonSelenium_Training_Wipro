@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44f57966-2776-4604-9276-f16ea3a8ae56" name="Changes" comment="DAY 4">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day4/Assessment/Ques_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day4/Assessment/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day4/TC_Abstractclass.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day4/TC_Multiple_Abstraction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day4/__init__.py" afterDir="false" />
-    </list>
+    <list default="true" id="44f57966-2776-4604-9276-f16ea3a8ae56" name="Changes" comment="DAY 4" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1768537953663</updated>
-      <workItem from="1768537954734" duration="5955000" />
+      <workItem from="1768537954734" duration="6302000" />
     </task>
     <task id="LOCAL-00001" summary="DAY 4">
       <option name="closed" value="true" />
@@ -93,7 +82,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768539097887</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="DAY 4">
+      <option name="closed" value="true" />
+      <created>1768545368248</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1768545368249</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +110,22 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DAY 4" />
     <option name="LAST_COMMIT_MESSAGE" value="DAY 4" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Day4/Assessment/Ques_1.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Day4/Assessment/Ques_1.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonProject1$Ques_1.coverage" NAME="Ques_1 Coverage Results" MODIFIED="1768544807712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4/Assessment" />
