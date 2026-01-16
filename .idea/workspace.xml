@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44f57966-2776-4604-9276-f16ea3a8ae56" name="Changes" comment="DAY 4" />
+    <list default="true" id="44f57966-2776-4604-9276-f16ea3a8ae56" name="Changes" comment="DAY 4">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day4/TC_Abstractclass.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day4/TC_ConstructorandDesctructor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day4/TC_Multiple_Abstraction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day4/TC_classes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day4/__init__.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +56,7 @@
     "Python.TC_Multiple_Abstraction.executor": "Run",
     "Python.TC_classes.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "ai.playground.ignore.import.keys.banner.in.settings": "true",
@@ -72,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1768537953663</updated>
-      <workItem from="1768537954734" duration="6302000" />
+      <workItem from="1768537954734" duration="7618000" />
     </task>
     <task id="LOCAL-00001" summary="DAY 4">
       <option name="closed" value="true" />
@@ -111,27 +119,11 @@
     <MESSAGE value="DAY 4" />
     <option name="LAST_COMMIT_MESSAGE" value="DAY 4" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Day4/Assessment/Ques_1.py</url>
-          <line>7</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Day4/Assessment/Ques_1.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PythonProject1$Ques_1.coverage" NAME="Ques_1 Coverage Results" MODIFIED="1768544807712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4/Assessment" />
+    <SUITE FILE_PATH="coverage/PythonProject1$Ques_1.coverage" NAME="Ques_1 Coverage Results" MODIFIED="1768545593398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4/Assessment" />
     <SUITE FILE_PATH="coverage/PythonProject1$TC_Multiple_Abstraction.coverage" NAME="TC_Multiple_Abstraction Coverage Results" MODIFIED="1768541526770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4" />
     <SUITE FILE_PATH="coverage/PythonProject1$TC_classes.coverage" NAME="TC_classes Coverage Results" MODIFIED="1768538281316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4" />
-    <SUITE FILE_PATH="coverage/PythonProject1$TC_Abstractclass.coverage" NAME="TC_Abstractclass Coverage Results" MODIFIED="1768541245099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4" />
+    <SUITE FILE_PATH="coverage/PythonProject1$TC_Abstractclass.coverage" NAME="TC_Abstractclass Coverage Results" MODIFIED="1768546716180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4/Class_practice" />
     <SUITE FILE_PATH="coverage/PythonProject1$TC_ConstructorandDesctructor.coverage" NAME="TC_ConstructorandDesctructor Coverage Results" MODIFIED="1768538732012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4" />
   </component>
 </project>
