@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="44f57966-2776-4604-9276-f16ea3a8ae56" name="Changes" comment="DAY 4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day4/TC_Abstractclass.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day4/TC_ConstructorandDesctructor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day4/TC_Multiple_Abstraction.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day4/TC_classes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day4/__init__.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1768537953663</updated>
-      <workItem from="1768537954734" duration="7618000" />
+      <workItem from="1768537954734" duration="8757000" />
     </task>
     <task id="LOCAL-00001" summary="DAY 4">
       <option name="closed" value="true" />
@@ -98,7 +93,31 @@
       <option name="project" value="LOCAL" />
       <updated>1768545368249</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="DAY 4">
+      <option name="closed" value="true" />
+      <created>1768546749630</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1768546749630</updated>
+    </task>
+    <task id="LOCAL-00004" summary="DAY 4">
+      <option name="closed" value="true" />
+      <created>1768546855284</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1768546855284</updated>
+    </task>
+    <task id="LOCAL-00005" summary="DAY 4">
+      <option name="closed" value="true" />
+      <created>1768547214131</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1768547214131</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
