@@ -2,7 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44f57966-2776-4604-9276-f16ea3a8ae56" name="Changes" comment="DAY 4">
+      <change afterPath="$PROJECT_DIR$/Day1/Ques1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1/Ques2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day2/Assessment/Ques1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day2/Assessment/Ques2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day2/Assessment/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day2/class/Age.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day2/class/Arithmetic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day2/class/Dictionary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day2/class/Exception-Handling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day2/class/If-Else-Statement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day2/class/Lambda.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day2/class/Set.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day2/class/String.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day2/class/TC_List.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day2/class/TC_tuple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day2/class/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day2/class/inbuilt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3/Assessment/Ques1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3/Assessment/Ques2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3/Assessment/Ques2/reader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3/Assessment/Ques2/writer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3/Assessment/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3/Class/Csv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3/Class/Decorators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3/Class/Descriptors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3/Class/Generator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3/Class/Iterator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3/Class/Json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3/Class/TC_Enumrator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3/Class/class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3/Class/employee.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3/Class/file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3/Class/functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3/Class/modules.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3/Class/student.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3/Class/xml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day4/Assessment/Ques2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day4/Class_practice/TC_Subprocess.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day4/Assessment/Ques_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day4/Assessment/Ques_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,25 +60,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Arimardan-12"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Arimardan-12&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="8c78323c-1f9c-4b77-b9bd-7ebed4a2c039" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:Arimardan-12/Wipro-Technical-Training.git",
-    "accountId": "8c78323c-1f9c-4b77-b9bd-7ebed4a2c039"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:Arimardan-12/Wipro-Technical-Training.git&quot;,
+    &quot;accountId&quot;: &quot;8c78323c-1f9c-4b77-b9bd-7ebed4a2c039&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="38KAaTTRLhSFesm0DNiU7D4qjq2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -45,11 +89,36 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Age.executor": "Run",
+    "Python.Csv.executor": "Run",
+    "Python.Decorators.executor": "Run",
+    "Python.Descriptors.executor": "Run",
+    "Python.Dictionary.executor": "Run",
+    "Python.Exception-Handling.executor": "Run",
+    "Python.Generator.executor": "Run",
+    "Python.If-Else-Statement.executor": "Run",
+    "Python.Iterator.executor": "Run",
+    "Python.Json.executor": "Run",
+    "Python.Lambda.executor": "Run",
+    "Python.Ques1.executor": "Run",
+    "Python.Ques2.executor": "Run",
     "Python.Ques_1.executor": "Run",
+    "Python.Set.executor": "Run",
+    "Python.String.executor": "Run",
     "Python.TC_Abstractclass.executor": "Run",
     "Python.TC_ConstructorandDesctructor.executor": "Run",
+    "Python.TC_List.executor": "Run",
     "Python.TC_Multiple_Abstraction.executor": "Run",
+    "Python.TC_Subprocess.executor": "Run",
     "Python.TC_classes.executor": "Run",
+    "Python.TC_tuple.executor": "Run",
+    "Python.class.executor": "Run",
+    "Python.file.executor": "Run",
+    "Python.functions.executor": "Run",
+    "Python.inbuilt.executor": "Run",
+    "Python.modules.executor": "Run",
+    "Python.reader.executor": "Run",
+    "Python.xml.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -75,7 +144,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1768537953663</updated>
-      <workItem from="1768537954734" duration="8757000" />
+      <workItem from="1768537954734" duration="9799000" />
+      <workItem from="1768548960975" duration="7278000" />
+      <workItem from="1768627816317" duration="8381000" />
     </task>
     <task id="LOCAL-00001" summary="DAY 4">
       <option name="closed" value="true" />
@@ -117,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768547214131</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="DAY 4">
+      <option name="closed" value="true" />
+      <created>1768547897713</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1768547897713</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,10 +218,35 @@
     <option name="LAST_COMMIT_MESSAGE" value="DAY 4" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PythonProject1$Ques_1.coverage" NAME="Ques_1 Coverage Results" MODIFIED="1768545593398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4/Assessment" />
+    <SUITE FILE_PATH="coverage/PythonProject1$Exception_Handling.coverage" NAME="Exception-Handling Coverage Results" MODIFIED="1768630615636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day2/class" />
+    <SUITE FILE_PATH="coverage/PythonProject1$Json.coverage" NAME="Json Coverage Results" MODIFIED="1768640457014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day3/Class" />
+    <SUITE FILE_PATH="coverage/PythonProject1$TC_ConstructorandDesctructor.coverage" NAME="TC_ConstructorandDesctructor Coverage Results" MODIFIED="1768552612990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4/Class_practice" />
+    <SUITE FILE_PATH="coverage/PythonProject1$class.coverage" NAME="class Coverage Results" MODIFIED="1768640192783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day3/Class" />
+    <SUITE FILE_PATH="coverage/PythonProject1$modules.coverage" NAME="modules Coverage Results" MODIFIED="1768640565304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day3/Class" />
+    <SUITE FILE_PATH="coverage/PythonProject1$Iterator.coverage" NAME="Iterator Coverage Results" MODIFIED="1768640453675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day3/Class" />
     <SUITE FILE_PATH="coverage/PythonProject1$TC_Multiple_Abstraction.coverage" NAME="TC_Multiple_Abstraction Coverage Results" MODIFIED="1768541526770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4" />
+    <SUITE FILE_PATH="coverage/PythonProject1$xml.coverage" NAME="xml Coverage Results" MODIFIED="1768640832412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day3/Class" />
+    <SUITE FILE_PATH="coverage/PythonProject1$Csv.coverage" NAME="Csv Coverage Results" MODIFIED="1768640467155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day3/Class" />
     <SUITE FILE_PATH="coverage/PythonProject1$TC_classes.coverage" NAME="TC_classes Coverage Results" MODIFIED="1768538281316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4" />
+    <SUITE FILE_PATH="coverage/PythonProject1$Ques1.coverage" NAME="Ques1 Coverage Results" MODIFIED="1768639581546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day3/Assessment" />
+    <SUITE FILE_PATH="coverage/PythonProject1$Descriptors.coverage" NAME="Descriptors Coverage Results" MODIFIED="1768640484475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day3/Class" />
+    <SUITE FILE_PATH="coverage/PythonProject1$Lambda.coverage" NAME="Lambda Coverage Results" MODIFIED="1768630012982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day2/class" />
+    <SUITE FILE_PATH="coverage/PythonProject1$If_Else_Statement.coverage" NAME="If-Else-Statement Coverage Results" MODIFIED="1768629845221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day2/class" />
+    <SUITE FILE_PATH="coverage/PythonProject1$TC_Subprocess.coverage" NAME="TC_Subprocess Coverage Results" MODIFIED="1768561161299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4/Class_practice" />
+    <SUITE FILE_PATH="coverage/PythonProject1$file.coverage" NAME="file Coverage Results" MODIFIED="1768640439904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day3/Class" />
+    <SUITE FILE_PATH="coverage/PythonProject1$Age.coverage" NAME="Age Coverage Results" MODIFIED="1768554507898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day2/class" />
+    <SUITE FILE_PATH="coverage/PythonProject1$Dictionary.coverage" NAME="Dictionary Coverage Results" MODIFIED="1768553894753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day2/class" />
+    <SUITE FILE_PATH="coverage/PythonProject1$Ques2.coverage" NAME="Ques2 Coverage Results" MODIFIED="1768638397672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day2/Assessment" />
+    <SUITE FILE_PATH="coverage/PythonProject1$Set.coverage" NAME="Set Coverage Results" MODIFIED="1768554201444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day2/class" />
+    <SUITE FILE_PATH="coverage/PythonProject1$Generator.coverage" NAME="Generator Coverage Results" MODIFIED="1768640448238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day3/Class" />
+    <SUITE FILE_PATH="coverage/PythonProject1$TC_List.coverage" NAME="TC_List Coverage Results" MODIFIED="1768553608466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day2/class" />
+    <SUITE FILE_PATH="coverage/PythonProject1$Ques_1.coverage" NAME="Ques_1 Coverage Results" MODIFIED="1768545593398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4/Assessment" />
+    <SUITE FILE_PATH="coverage/PythonProject1$String.coverage" NAME="String Coverage Results" MODIFIED="1768630320120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day2/class" />
+    <SUITE FILE_PATH="coverage/PythonProject1$functions.coverage" NAME="functions Coverage Results" MODIFIED="1768640537009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day3/Class" />
+    <SUITE FILE_PATH="coverage/PythonProject1$inbuilt.coverage" NAME="inbuilt Coverage Results" MODIFIED="1768629928715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day2/class" />
+    <SUITE FILE_PATH="coverage/PythonProject1$reader.coverage" NAME="reader Coverage Results" MODIFIED="1768639880279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day3/Assessment/Ques2" />
+    <SUITE FILE_PATH="coverage/PythonProject1$Decorators.coverage" NAME="Decorators Coverage Results" MODIFIED="1768640477506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day3/Class" />
     <SUITE FILE_PATH="coverage/PythonProject1$TC_Abstractclass.coverage" NAME="TC_Abstractclass Coverage Results" MODIFIED="1768546716180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4/Class_practice" />
-    <SUITE FILE_PATH="coverage/PythonProject1$TC_ConstructorandDesctructor.coverage" NAME="TC_ConstructorandDesctructor Coverage Results" MODIFIED="1768538732012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4" />
+    <SUITE FILE_PATH="coverage/PythonProject1$TC_tuple.coverage" NAME="TC_tuple Coverage Results" MODIFIED="1768553672489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day2/class" />
   </component>
 </project>
