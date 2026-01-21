@@ -1,3 +1,15 @@
+"""	Create application endpoints, Test API using Postman
+	Using the Flask API created in Question 1:
+	1. Test all endpoints using Postman End
+	2. For each endpoint:
+	Set the correct HTTP method , Send request headers (Content-Type: application/json) , Pass request body for POST
+	3. Verify:
+	Correct status codes (200, 201, 404)
+	Correct JSON responses
+	4. Document your Postman tests with:
+	Screenshots (or steps)
+	Sample request and response payloads"""
+
 from flask import Flask, request, jsonify
 
 app = Flask(__name__)
