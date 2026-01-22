@@ -1,3 +1,12 @@
+"""Parsing HTML (BeautifulSoup, lxml), Web automation basics
+Write a Python program that:
+1. Fetches an HTML webpage using the requests library
+2. Parses the HTML using BeautifulSoup with the lxml parser
+3. Extracts:
+Page title, All hyperlinks, Specific table or list data
+4. Converts the extracted data into JSON format
+5. Saves the output into a file for further automation or analysis"""
+
 import requests
 from bs4 import BeautifulSoup
 import json
