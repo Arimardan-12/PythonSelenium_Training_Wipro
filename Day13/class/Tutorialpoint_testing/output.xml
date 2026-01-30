@@ -1,0 +1,1109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.14.0 on win32)" generated="2026-01-30T17:03:23.045016" rpa="false" schemaversion="5">
+<suite id="s1" name="TC003 Test" source="C:\Users\Lenovo\PycharmProjects\PythonProject1\Day13\class\Tutorialpoint_testing\TC003_Test.robot">
+<kw name="Setup Test Suite" type="SETUP">
+<kw name="Cleanup Old Screenshots">
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Remove File" owner="OperatingSystem">
+<msg time="2026-01-30T17:03:23.414636" level="INFO" html="true">Removed file '&lt;a href="file://C:\Users\Lenovo\PycharmProjects\PythonProject1\Day13\class\Tutorialpoint_testing\login_failure_alert_jsmith54321@gmail.com.png"&gt;C:\Users\Lenovo\PycharmProjects\PythonProject1\Day13\class\Tutorialpoint_testing\login_failure_alert_jsmith54321@gmail.com.png&lt;/a&gt;'.</msg>
+<msg time="2026-01-30T17:03:23.414989" level="INFO" html="true">Removed file '&lt;a href="file://C:\Users\Lenovo\PycharmProjects\PythonProject1\Day13\class\Tutorialpoint_testing\login_form_filled_jdoe12345@gmail.com.png"&gt;C:\Users\Lenovo\PycharmProjects\PythonProject1\Day13\class\Tutorialpoint_testing\login_form_filled_jdoe12345@gmail.com.png&lt;/a&gt;'.</msg>
+<msg time="2026-01-30T17:03:23.415300" level="INFO" html="true">Removed file '&lt;a href="file://C:\Users\Lenovo\PycharmProjects\PythonProject1\Day13\class\Tutorialpoint_testing\login_form_filled_jsmith54321@gmail.com.png"&gt;C:\Users\Lenovo\PycharmProjects\PythonProject1\Day13\class\Tutorialpoint_testing\login_form_filled_jsmith54321@gmail.com.png&lt;/a&gt;'.</msg>
+<msg time="2026-01-30T17:03:23.415581" level="INFO" html="true">Removed file '&lt;a href="file://C:\Users\Lenovo\PycharmProjects\PythonProject1\Day13\class\Tutorialpoint_testing\login_page_loaded.png"&gt;C:\Users\Lenovo\PycharmProjects\PythonProject1\Day13\class\Tutorialpoint_testing\login_page_loaded.png&lt;/a&gt;'.</msg>
+<msg time="2026-01-30T17:03:23.415856" level="INFO" html="true">Removed file '&lt;a href="file://C:\Users\Lenovo\PycharmProjects\PythonProject1\Day13\class\Tutorialpoint_testing\login_success_jdoe12345@gmail.com.png"&gt;C:\Users\Lenovo\PycharmProjects\PythonProject1\Day13\class\Tutorialpoint_testing\login_success_jdoe12345@gmail.com.png&lt;/a&gt;'.</msg>
+<msg time="2026-01-30T17:03:23.416125" level="INFO" html="true">Removed file '&lt;a href="file://C:\Users\Lenovo\PycharmProjects\PythonProject1\Day13\class\Tutorialpoint_testing\logout_success_Jane.png"&gt;C:\Users\Lenovo\PycharmProjects\PythonProject1\Day13\class\Tutorialpoint_testing\logout_success_Jane.png&lt;/a&gt;'.</msg>
+<msg time="2026-01-30T17:03:23.416479" level="INFO" html="true">Removed file '&lt;a href="file://C:\Users\Lenovo\PycharmProjects\PythonProject1\Day13\class\Tutorialpoint_testing\logout_success_John.png"&gt;C:\Users\Lenovo\PycharmProjects\PythonProject1\Day13\class\Tutorialpoint_testing\logout_success_John.png&lt;/a&gt;'.</msg>
+<msg time="2026-01-30T17:03:23.416888" level="INFO" html="true">Removed file '&lt;a href="file://C:\Users\Lenovo\PycharmProjects\PythonProject1\Day13\class\Tutorialpoint_testing\main_page_loaded.png"&gt;C:\Users\Lenovo\PycharmProjects\PythonProject1\Day13\class\Tutorialpoint_testing\main_page_loaded.png&lt;/a&gt;'.</msg>
+<msg time="2026-01-30T17:03:23.417192" level="INFO" html="true">Removed file '&lt;a href="file://C:\Users\Lenovo\PycharmProjects\PythonProject1\Day13\class\Tutorialpoint_testing\register_page_loaded.png"&gt;C:\Users\Lenovo\PycharmProjects\PythonProject1\Day13\class\Tutorialpoint_testing\register_page_loaded.png&lt;/a&gt;'.</msg>
+<msg time="2026-01-30T17:03:23.417461" level="INFO" html="true">Removed file '&lt;a href="file://C:\Users\Lenovo\PycharmProjects\PythonProject1\Day13\class\Tutorialpoint_testing\registration_form_filled_Jane.png"&gt;C:\Users\Lenovo\PycharmProjects\PythonProject1\Day13\class\Tutorialpoint_testing\registration_form_filled_Jane.png&lt;/a&gt;'.</msg>
+<msg time="2026-01-30T17:03:23.417725" level="INFO" html="true">Removed file '&lt;a href="file://C:\Users\Lenovo\PycharmProjects\PythonProject1\Day13\class\Tutorialpoint_testing\registration_form_filled_John.png"&gt;C:\Users\Lenovo\PycharmProjects\PythonProject1\Day13\class\Tutorialpoint_testing\registration_form_filled_John.png&lt;/a&gt;'.</msg>
+<msg time="2026-01-30T17:03:23.417985" level="INFO" html="true">Removed file '&lt;a href="file://C:\Users\Lenovo\PycharmProjects\PythonProject1\Day13\class\Tutorialpoint_testing\registration_success_Jane.png"&gt;C:\Users\Lenovo\PycharmProjects\PythonProject1\Day13\class\Tutorialpoint_testing\registration_success_Jane.png&lt;/a&gt;'.</msg>
+<msg time="2026-01-30T17:03:23.418232" level="INFO" html="true">Removed file '&lt;a href="file://C:\Users\Lenovo\PycharmProjects\PythonProject1\Day13\class\Tutorialpoint_testing\registration_success_John.png"&gt;C:\Users\Lenovo\PycharmProjects\PythonProject1\Day13\class\Tutorialpoint_testing\registration_success_John.png&lt;/a&gt;'.</msg>
+<arg>*.png</arg>
+<doc>Removes a file with the given path.</doc>
+<status status="PASS" start="2026-01-30T17:03:23.413753" elapsed="0.004572"/>
+</kw>
+<arg>Remove File</arg>
+<arg>*.png</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-01-30T17:03:23.413283" elapsed="0.005186"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-01-30T17:03:23.418971" level="INFO">Deleted previous screenshot files.</msg>
+<arg>Deleted previous screenshot files.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-01-30T17:03:23.418645" elapsed="0.000386"/>
+</kw>
+<doc>Deletes old PNG screenshots to ensure a fresh outcome.</doc>
+<status status="PASS" start="2026-01-30T17:03:23.412393" elapsed="0.006732"/>
+</kw>
+<kw name="Open Browser To Main Page">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:23.419829" level="INFO">Opening browser 'chrome' to base url 'https://tutorialsninja.com/demo/'.</msg>
+<arg>https://tutorialsninja.com/demo/</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-01-30T17:03:23.419588" elapsed="2.226311"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-01-30T17:03:25.646265" elapsed="0.052274"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:26.354890" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="main_page_loaded.png"&gt;&lt;img src="main_page_loaded.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>main_page_loaded.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2026-01-30T17:03:25.698920" elapsed="0.656157"/>
+</kw>
+<status status="PASS" start="2026-01-30T17:03:23.419345" elapsed="2.935942"/>
+</kw>
+<doc>Prepares the test run by cleaning artifacts and opening browser.</doc>
+<status status="PASS" start="2026-01-30T17:03:23.412047" elapsed="2.943390"/>
+</kw>
+<test id="s1-t1" name="TC1: Data-Driven Registration" line="99">
+<kw name="Get File" owner="OperatingSystem">
+<msg time="2026-01-30T17:03:26.356921" level="INFO" html="true">Getting file '&lt;a href="file://C:\Users\Lenovo\PycharmProjects\PythonProject1\Day13\class\Tutorialpoint_testing\registration_data.csv"&gt;C:\Users\Lenovo\PycharmProjects\PythonProject1\Day13\class\Tutorialpoint_testing\registration_data.csv&lt;/a&gt;'.</msg>
+<msg time="2026-01-30T17:03:26.357395" level="INFO">${csv_content} = firstname,lastname,telephone,password
+John,Doe,1234567890,Pass@123
+Jane,Smith,9876543210,Pass@123
+Arimardan,Singh,8400533329,Ari@234</msg>
+<var>${csv_content}</var>
+<arg>${REG_DATA}</arg>
+<doc>Returns the contents of a specified file.</doc>
+<status status="PASS" start="2026-01-30T17:03:26.356575" elapsed="0.000875"/>
+</kw>
+<kw name="Split To Lines" owner="String">
+<msg time="2026-01-30T17:03:26.358126" level="INFO">4 lines returned.</msg>
+<msg time="2026-01-30T17:03:26.358253" level="INFO">${lines} = ['firstname,lastname,telephone,password', 'John,Doe,1234567890,Pass@123', 'Jane,Smith,9876543210,Pass@123', 'Arimardan,Singh,8400533329,Ari@234']</msg>
+<var>${lines}</var>
+<arg>${csv_content}</arg>
+<doc>Splits the given string to lines.</doc>
+<status status="PASS" start="2026-01-30T17:03:26.357869" elapsed="0.000447"/>
+</kw>
+<for flavor="IN">
+<iter>
+<kw name="Continue For Loop If" owner="BuiltIn">
+<msg time="2026-01-30T17:03:26.359712" level="INFO">Continuing for loop from the next iteration.</msg>
+<arg>'firstname' in '${line}'</arg>
+<doc>Skips the current FOR loop iteration if the ``condition`` is true.</doc>
+<status status="PASS" start="2026-01-30T17:03:26.359059" elapsed="0.000783"/>
+</kw>
+<kw name="Split String" owner="String">
+<var>${data}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="NOT RUN" start="2026-01-30T17:03:26.360040" elapsed="0.000051"/>
+</kw>
+<kw name="Register User">
+<arg>${data[0]}</arg>
+<arg>${data[1]}</arg>
+<arg>${data[2]}</arg>
+<arg>${data[3]}</arg>
+<status status="NOT RUN" start="2026-01-30T17:03:26.360574" elapsed="0.000084"/>
+</kw>
+<var name="${line}">firstname,lastname,telephone,password</var>
+<status status="PASS" start="2026-01-30T17:03:26.358896" elapsed="0.001873"/>
+</iter>
+<iter>
+<kw name="Continue For Loop If" owner="BuiltIn">
+<arg>'firstname' in '${line}'</arg>
+<doc>Skips the current FOR loop iteration if the ``condition`` is true.</doc>
+<status status="PASS" start="2026-01-30T17:03:26.361275" elapsed="0.000766"/>
+</kw>
+<kw name="Split String" owner="String">
+<msg time="2026-01-30T17:03:26.362821" level="INFO">${data} = ['John', 'Doe', '1234567890', 'Pass@123']</msg>
+<var>${data}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-30T17:03:26.362304" elapsed="0.000583"/>
+</kw>
+<kw name="Register User">
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:26.367364" level="INFO">Opening url 'https://tutorialsninja.com/demo/index.php?route=account/register'</msg>
+<arg>${URL_REG}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2026-01-30T17:03:26.367068" elapsed="0.535633"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>id:input-firstname</arg>
+<arg>timeout=15s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-01-30T17:03:26.903222" elapsed="0.031493"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:27.076381" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="register_page_loaded.png"&gt;&lt;img src="register_page_loaded.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>register_page_loaded.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2026-01-30T17:03:26.935210" elapsed="0.141324"/>
+</kw>
+<kw name="Generate Unique Email">
+<kw name="Get Substring" owner="String">
+<msg time="2026-01-30T17:03:27.077694" level="INFO">${first_initial} = J</msg>
+<var>${first_initial}</var>
+<arg>${firstname}</arg>
+<arg>0</arg>
+<arg>1</arg>
+<doc>Returns a substring from ``start`` index to ``end`` index.</doc>
+<status status="PASS" start="2026-01-30T17:03:27.077379" elapsed="0.000354"/>
+</kw>
+<kw name="Generate Random String" owner="String">
+<msg time="2026-01-30T17:03:27.078218" level="INFO">${random_num} = 59660</msg>
+<var>${random_num}</var>
+<arg>5</arg>
+<arg>[NUMBERS]</arg>
+<doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
+<status status="PASS" start="2026-01-30T17:03:27.077908" elapsed="0.000345"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2026-01-30T17:03:27.079406" level="INFO">${email} = jdoe59660@gmail.com</msg>
+<var>${email}</var>
+<arg>${first_initial.lower()}${lastname.lower()}${random_num}@gmail.com</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2026-01-30T17:03:27.078385" elapsed="0.001058"/>
+</kw>
+<return>
+<value>${email}</value>
+<status status="PASS" start="2026-01-30T17:03:27.079522" elapsed="0.000072"/>
+</return>
+<msg time="2026-01-30T17:03:27.080594" level="INFO">${email} = jdoe59660@gmail.com</msg>
+<var>${email}</var>
+<arg>${fname}</arg>
+<arg>${lname}</arg>
+<status status="PASS" start="2026-01-30T17:03:27.076902" elapsed="0.003728"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-01-30T17:03:27.081131" level="INFO">Registering with Email: jdoe59660@gmail.com</msg>
+<arg>Registering with Email: ${email}</arg>
+<arg>console=True</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-01-30T17:03:27.080764" elapsed="0.000598"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:27.081922" level="INFO">Typing text 'John' into text field 'id:input-firstname'.</msg>
+<arg>id:input-firstname</arg>
+<arg>${fname}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-30T17:03:27.081528" elapsed="0.132380"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:27.214630" level="INFO">Typing text 'Doe' into text field 'id:input-lastname'.</msg>
+<arg>id:input-lastname</arg>
+<arg>${lname}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-30T17:03:27.214231" elapsed="0.128182"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:27.343115" level="INFO">Typing text 'jdoe59660@gmail.com' into text field 'id:input-email'.</msg>
+<arg>id:input-email</arg>
+<arg>${email}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-30T17:03:27.342704" elapsed="0.158385"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:27.501755" level="INFO">Typing text '1234567890' into text field 'id:input-telephone'.</msg>
+<arg>id:input-telephone</arg>
+<arg>${phone}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-30T17:03:27.501381" elapsed="0.109091"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:27.611241" level="INFO">Typing text 'Pass@123' into text field 'id:input-password'.</msg>
+<arg>id:input-password</arg>
+<arg>${pwd}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-30T17:03:27.610797" elapsed="0.120243"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:27.731725" level="INFO">Typing text 'Pass@123' into text field 'id:input-confirm'.</msg>
+<arg>id:input-confirm</arg>
+<arg>${pwd}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-30T17:03:27.731277" elapsed="0.133653"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:28.070446" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="registration_form_filled_John.png"&gt;&lt;img src="registration_form_filled_John.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>registration_form_filled_${fname}.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2026-01-30T17:03:27.865364" elapsed="0.205367"/>
+</kw>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:28.071642" level="INFO">Executing JavaScript:
+document.querySelector("input[name='newsletter'][value='0']").click()
+Without any arguments.</msg>
+<arg>document.querySelector("input[name='newsletter'][value='0']").click()</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2026-01-30T17:03:28.071001" elapsed="0.015721"/>
+</kw>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:28.087771" level="INFO">Executing JavaScript:
+document.querySelector("input[name='agree']").click()
+Without any arguments.</msg>
+<arg>document.querySelector("input[name='agree']").click()</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2026-01-30T17:03:28.087143" elapsed="0.009339"/>
+</kw>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:28.097584" level="INFO">Executing JavaScript:
+document.querySelector("input.btn-primary").click()
+Without any arguments.</msg>
+<arg>document.querySelector("input.btn-primary").click()</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2026-01-30T17:03:28.096818" elapsed="0.844165"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>Your Account Has Been Created!</arg>
+<arg>timeout=10s</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2026-01-30T17:03:28.941195" elapsed="0.019084"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:29.177090" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="registration_success_John.png"&gt;&lt;img src="registration_success_John.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>registration_success_${fname}.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2026-01-30T17:03:28.960551" elapsed="0.216759"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-01-30T17:03:29.188047" level="INFO">Successfully Registered: jdoe59660@gmail.com</msg>
+<arg>Successfully Registered: ${email}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-01-30T17:03:29.177620" elapsed="0.010569"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:29.188761" level="INFO">Opening url 'https://tutorialsninja.com/demo/index.php?route=account/logout'</msg>
+<arg>https://tutorialsninja.com/demo/index.php?route=account/logout</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2026-01-30T17:03:29.188494" elapsed="0.519373"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>Account Logout</arg>
+<arg>timeout=10s</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2026-01-30T17:03:29.708267" elapsed="0.030295"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:29.880921" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="logout_success_John.png"&gt;&lt;img src="logout_success_John.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>logout_success_${fname}.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2026-01-30T17:03:29.738829" elapsed="0.142697"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:29.883064" level="INFO">Clicking link 'Continue'.</msg>
+<arg>Continue</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-30T17:03:29.882221" elapsed="0.422291"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>My Account</arg>
+<arg>timeout=10s</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2026-01-30T17:03:30.304898" elapsed="0.036748"/>
+</kw>
+<arg>${data[0]}</arg>
+<arg>${data[1]}</arg>
+<arg>${data[2]}</arg>
+<arg>${data[3]}</arg>
+<status status="PASS" start="2026-01-30T17:03:26.363345" elapsed="3.978445"/>
+</kw>
+<var name="${line}">John,Doe,1234567890,Pass@123</var>
+<status status="PASS" start="2026-01-30T17:03:26.361067" elapsed="3.980801"/>
+</iter>
+<iter>
+<kw name="Continue For Loop If" owner="BuiltIn">
+<arg>'firstname' in '${line}'</arg>
+<doc>Skips the current FOR loop iteration if the ``condition`` is true.</doc>
+<status status="PASS" start="2026-01-30T17:03:30.342203" elapsed="0.000474"/>
+</kw>
+<kw name="Split String" owner="String">
+<msg time="2026-01-30T17:03:30.343134" level="INFO">${data} = ['Jane', 'Smith', '9876543210', 'Pass@123']</msg>
+<var>${data}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-30T17:03:30.342833" elapsed="0.000342"/>
+</kw>
+<kw name="Register User">
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:30.345680" level="INFO">Opening url 'https://tutorialsninja.com/demo/index.php?route=account/register'</msg>
+<arg>${URL_REG}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2026-01-30T17:03:30.345502" elapsed="0.330645"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>id:input-firstname</arg>
+<arg>timeout=15s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-01-30T17:03:30.676499" elapsed="0.028575"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:30.858794" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="register_page_loaded.png"&gt;&lt;img src="register_page_loaded.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>register_page_loaded.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2026-01-30T17:03:30.705379" elapsed="0.153541"/>
+</kw>
+<kw name="Generate Unique Email">
+<kw name="Get Substring" owner="String">
+<msg time="2026-01-30T17:03:30.860000" level="INFO">${first_initial} = J</msg>
+<var>${first_initial}</var>
+<arg>${firstname}</arg>
+<arg>0</arg>
+<arg>1</arg>
+<doc>Returns a substring from ``start`` index to ``end`` index.</doc>
+<status status="PASS" start="2026-01-30T17:03:30.859655" elapsed="0.000388"/>
+</kw>
+<kw name="Generate Random String" owner="String">
+<msg time="2026-01-30T17:03:30.860436" level="INFO">${random_num} = 15505</msg>
+<var>${random_num}</var>
+<arg>5</arg>
+<arg>[NUMBERS]</arg>
+<doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
+<status status="PASS" start="2026-01-30T17:03:30.860203" elapsed="0.000275"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2026-01-30T17:03:30.862064" level="INFO">${email} = jsmith15505@gmail.com</msg>
+<var>${email}</var>
+<arg>${first_initial.lower()}${lastname.lower()}${random_num}@gmail.com</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2026-01-30T17:03:30.860627" elapsed="0.001509"/>
+</kw>
+<return>
+<value>${email}</value>
+<status status="PASS" start="2026-01-30T17:03:30.862274" elapsed="0.000102"/>
+</return>
+<msg time="2026-01-30T17:03:30.862642" level="INFO">${email} = jsmith15505@gmail.com</msg>
+<var>${email}</var>
+<arg>${fname}</arg>
+<arg>${lname}</arg>
+<status status="PASS" start="2026-01-30T17:03:30.859230" elapsed="0.003454"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-01-30T17:03:30.863269" level="INFO">Registering with Email: jsmith15505@gmail.com</msg>
+<arg>Registering with Email: ${email}</arg>
+<arg>console=True</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-01-30T17:03:30.862861" elapsed="0.000632"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:30.864126" level="INFO">Typing text 'Jane' into text field 'id:input-firstname'.</msg>
+<arg>id:input-firstname</arg>
+<arg>${fname}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-30T17:03:30.863755" elapsed="0.129105"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:30.993498" level="INFO">Typing text 'Smith' into text field 'id:input-lastname'.</msg>
+<arg>id:input-lastname</arg>
+<arg>${lname}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-30T17:03:30.993161" elapsed="0.120338"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:31.114349" level="INFO">Typing text 'jsmith15505@gmail.com' into text field 'id:input-email'.</msg>
+<arg>id:input-email</arg>
+<arg>${email}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-30T17:03:31.113866" elapsed="0.164930"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:31.279356" level="INFO">Typing text '9876543210' into text field 'id:input-telephone'.</msg>
+<arg>id:input-telephone</arg>
+<arg>${phone}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-30T17:03:31.279028" elapsed="0.128100"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:31.408007" level="INFO">Typing text 'Pass@123' into text field 'id:input-password'.</msg>
+<arg>id:input-password</arg>
+<arg>${pwd}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-30T17:03:31.407527" elapsed="0.244406"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:31.652884" level="INFO">Typing text 'Pass@123' into text field 'id:input-confirm'.</msg>
+<arg>id:input-confirm</arg>
+<arg>${pwd}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-30T17:03:31.652350" elapsed="0.376209"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:32.217698" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="registration_form_filled_Jane.png"&gt;&lt;img src="registration_form_filled_Jane.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>registration_form_filled_${fname}.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2026-01-30T17:03:32.029106" elapsed="0.188733"/>
+</kw>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:32.218648" level="INFO">Executing JavaScript:
+document.querySelector("input[name='newsletter'][value='0']").click()
+Without any arguments.</msg>
+<arg>document.querySelector("input[name='newsletter'][value='0']").click()</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2026-01-30T17:03:32.218070" elapsed="0.008804"/>
+</kw>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:32.228260" level="INFO">Executing JavaScript:
+document.querySelector("input[name='agree']").click()
+Without any arguments.</msg>
+<arg>document.querySelector("input[name='agree']").click()</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2026-01-30T17:03:32.227237" elapsed="0.010301"/>
+</kw>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:32.238657" level="INFO">Executing JavaScript:
+document.querySelector("input.btn-primary").click()
+Without any arguments.</msg>
+<arg>document.querySelector("input.btn-primary").click()</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2026-01-30T17:03:32.237945" elapsed="0.883294"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>Your Account Has Been Created!</arg>
+<arg>timeout=10s</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2026-01-30T17:03:33.121543" elapsed="0.018972"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:33.277678" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="registration_success_Jane.png"&gt;&lt;img src="registration_success_Jane.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>registration_success_${fname}.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2026-01-30T17:03:33.140855" elapsed="0.136970"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-01-30T17:03:33.278489" level="INFO">Successfully Registered: jsmith15505@gmail.com</msg>
+<arg>Successfully Registered: ${email}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-01-30T17:03:33.278020" elapsed="0.000543"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:33.278874" level="INFO">Opening url 'https://tutorialsninja.com/demo/index.php?route=account/logout'</msg>
+<arg>https://tutorialsninja.com/demo/index.php?route=account/logout</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2026-01-30T17:03:33.278740" elapsed="0.849984"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>Account Logout</arg>
+<arg>timeout=10s</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2026-01-30T17:03:34.129012" elapsed="0.022349"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:34.286463" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="logout_success_Jane.png"&gt;&lt;img src="logout_success_Jane.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>logout_success_${fname}.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2026-01-30T17:03:34.153079" elapsed="0.133596"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:34.287504" level="INFO">Clicking link 'Continue'.</msg>
+<arg>Continue</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-30T17:03:34.287050" elapsed="0.413810"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>My Account</arg>
+<arg>timeout=10s</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2026-01-30T17:03:34.701093" elapsed="0.015793"/>
+</kw>
+<arg>${data[0]}</arg>
+<arg>${data[1]}</arg>
+<arg>${data[2]}</arg>
+<arg>${data[3]}</arg>
+<status status="PASS" start="2026-01-30T17:03:30.343461" elapsed="4.373719"/>
+</kw>
+<var name="${line}">Jane,Smith,9876543210,Pass@123</var>
+<status status="PASS" start="2026-01-30T17:03:30.342061" elapsed="4.375228"/>
+</iter>
+<iter>
+<kw name="Continue For Loop If" owner="BuiltIn">
+<arg>'firstname' in '${line}'</arg>
+<doc>Skips the current FOR loop iteration if the ``condition`` is true.</doc>
+<status status="PASS" start="2026-01-30T17:03:34.718037" elapsed="0.002418"/>
+</kw>
+<kw name="Split String" owner="String">
+<msg time="2026-01-30T17:03:34.721342" level="INFO">${data} = ['Arimardan', 'Singh', '8400533329', 'Ari@234']</msg>
+<var>${data}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-30T17:03:34.720745" elapsed="0.000739"/>
+</kw>
+<kw name="Register User">
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:34.727507" level="INFO">Opening url 'https://tutorialsninja.com/demo/index.php?route=account/register'</msg>
+<arg>${URL_REG}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2026-01-30T17:03:34.727267" elapsed="0.228779"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>id:input-firstname</arg>
+<arg>timeout=15s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-01-30T17:03:34.956233" elapsed="0.027625"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:35.120283" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="register_page_loaded.png"&gt;&lt;img src="register_page_loaded.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>register_page_loaded.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2026-01-30T17:03:34.984489" elapsed="0.135963"/>
+</kw>
+<kw name="Generate Unique Email">
+<kw name="Get Substring" owner="String">
+<msg time="2026-01-30T17:03:35.121742" level="INFO">${first_initial} = A</msg>
+<var>${first_initial}</var>
+<arg>${firstname}</arg>
+<arg>0</arg>
+<arg>1</arg>
+<doc>Returns a substring from ``start`` index to ``end`` index.</doc>
+<status status="PASS" start="2026-01-30T17:03:35.121446" elapsed="0.000333"/>
+</kw>
+<kw name="Generate Random String" owner="String">
+<msg time="2026-01-30T17:03:35.122110" level="INFO">${random_num} = 75978</msg>
+<var>${random_num}</var>
+<arg>5</arg>
+<arg>[NUMBERS]</arg>
+<doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
+<status status="PASS" start="2026-01-30T17:03:35.121920" elapsed="0.000224"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2026-01-30T17:03:35.123266" level="INFO">${email} = asingh75978@gmail.com</msg>
+<var>${email}</var>
+<arg>${first_initial.lower()}${lastname.lower()}${random_num}@gmail.com</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2026-01-30T17:03:35.122271" elapsed="0.001032"/>
+</kw>
+<return>
+<value>${email}</value>
+<status status="PASS" start="2026-01-30T17:03:35.123395" elapsed="0.000064"/>
+</return>
+<msg time="2026-01-30T17:03:35.123632" level="INFO">${email} = asingh75978@gmail.com</msg>
+<var>${email}</var>
+<arg>${fname}</arg>
+<arg>${lname}</arg>
+<status status="PASS" start="2026-01-30T17:03:35.120875" elapsed="0.002792"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-01-30T17:03:35.124130" level="INFO">Registering with Email: asingh75978@gmail.com</msg>
+<arg>Registering with Email: ${email}</arg>
+<arg>console=True</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-01-30T17:03:35.123799" elapsed="0.000558"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:35.124800" level="INFO">Typing text 'Arimardan' into text field 'id:input-firstname'.</msg>
+<arg>id:input-firstname</arg>
+<arg>${fname}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-30T17:03:35.124540" elapsed="0.106710"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:35.232261" level="INFO">Typing text 'Singh' into text field 'id:input-lastname'.</msg>
+<arg>id:input-lastname</arg>
+<arg>${lname}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-30T17:03:35.231691" elapsed="0.143396"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:35.375775" level="INFO">Typing text 'asingh75978@gmail.com' into text field 'id:input-email'.</msg>
+<arg>id:input-email</arg>
+<arg>${email}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-30T17:03:35.375378" elapsed="0.151727"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:35.527913" level="INFO">Typing text '8400533329' into text field 'id:input-telephone'.</msg>
+<arg>id:input-telephone</arg>
+<arg>${phone}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-30T17:03:35.527451" elapsed="0.119003"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:35.647225" level="INFO">Typing text 'Ari@234' into text field 'id:input-password'.</msg>
+<arg>id:input-password</arg>
+<arg>${pwd}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-30T17:03:35.646870" elapsed="0.102996"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:35.750475" level="INFO">Typing text 'Ari@234' into text field 'id:input-confirm'.</msg>
+<arg>id:input-confirm</arg>
+<arg>${pwd}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-30T17:03:35.750148" elapsed="0.115533"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:36.036049" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="registration_form_filled_Arimardan.png"&gt;&lt;img src="registration_form_filled_Arimardan.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>registration_form_filled_${fname}.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2026-01-30T17:03:35.865928" elapsed="0.170258"/>
+</kw>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:36.037008" level="INFO">Executing JavaScript:
+document.querySelector("input[name='newsletter'][value='0']").click()
+Without any arguments.</msg>
+<arg>document.querySelector("input[name='newsletter'][value='0']").click()</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2026-01-30T17:03:36.036441" elapsed="0.007948"/>
+</kw>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:36.045054" level="INFO">Executing JavaScript:
+document.querySelector("input[name='agree']").click()
+Without any arguments.</msg>
+<arg>document.querySelector("input[name='agree']").click()</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2026-01-30T17:03:36.044596" elapsed="0.007000"/>
+</kw>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:36.052267" level="INFO">Executing JavaScript:
+document.querySelector("input.btn-primary").click()
+Without any arguments.</msg>
+<arg>document.querySelector("input.btn-primary").click()</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2026-01-30T17:03:36.051821" elapsed="0.863058"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>Your Account Has Been Created!</arg>
+<arg>timeout=10s</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2026-01-30T17:03:36.915118" elapsed="0.018202"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:37.071121" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="registration_success_Arimardan.png"&gt;&lt;img src="registration_success_Arimardan.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>registration_success_${fname}.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2026-01-30T17:03:36.933730" elapsed="0.137575"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-01-30T17:03:37.072017" level="INFO">Successfully Registered: asingh75978@gmail.com</msg>
+<arg>Successfully Registered: ${email}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-01-30T17:03:37.071570" elapsed="0.000516"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:37.072362" level="INFO">Opening url 'https://tutorialsninja.com/demo/index.php?route=account/logout'</msg>
+<arg>https://tutorialsninja.com/demo/index.php?route=account/logout</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2026-01-30T17:03:37.072235" elapsed="0.382983"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>Account Logout</arg>
+<arg>timeout=10s</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2026-01-30T17:03:37.455442" elapsed="0.021602"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:37.619334" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="logout_success_Arimardan.png"&gt;&lt;img src="logout_success_Arimardan.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>logout_success_${fname}.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2026-01-30T17:03:37.477398" elapsed="0.142059"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:37.619855" level="INFO">Clicking link 'Continue'.</msg>
+<arg>Continue</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-30T17:03:37.619654" elapsed="0.313581"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>My Account</arg>
+<arg>timeout=10s</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2026-01-30T17:03:37.933448" elapsed="0.018008"/>
+</kw>
+<arg>${data[0]}</arg>
+<arg>${data[1]}</arg>
+<arg>${data[2]}</arg>
+<arg>${data[3]}</arg>
+<status status="PASS" start="2026-01-30T17:03:34.722393" elapsed="3.229523"/>
+</kw>
+<var name="${line}">Arimardan,Singh,8400533329,Ari@234</var>
+<status status="PASS" start="2026-01-30T17:03:34.717531" elapsed="3.234502"/>
+</iter>
+<var>${line}</var>
+<value>@{lines}</value>
+<status status="PASS" start="2026-01-30T17:03:26.358613" elapsed="11.593506"/>
+</for>
+<doc>Registers users from CSV data.</doc>
+<status status="PASS" start="2026-01-30T17:03:26.355603" elapsed="11.597151"/>
+</test>
+<test id="s1-t2" name="TC2: Data-Driven Login" line="110">
+<kw name="Get File" owner="OperatingSystem">
+<msg time="2026-01-30T17:03:37.954660" level="INFO" html="true">Getting file '&lt;a href="file://C:\Users\Lenovo\PycharmProjects\PythonProject1\Day13\class\Tutorialpoint_testing\login_data.csv"&gt;C:\Users\Lenovo\PycharmProjects\PythonProject1\Day13\class\Tutorialpoint_testing\login_data.csv&lt;/a&gt;'.</msg>
+<msg time="2026-01-30T17:03:37.955158" level="INFO">${csv_content} = email,password,expected
+# For login success, you will use emails generated during registration
+# For failure, you can put random or wrong emails
+jdoe12345@gmail.com,Pass@123,success
+jsmith54321@gmail....</msg>
+<var>${csv_content}</var>
+<arg>${LOGIN_DATA}</arg>
+<doc>Returns the contents of a specified file.</doc>
+<status status="PASS" start="2026-01-30T17:03:37.954348" elapsed="0.000865"/>
+</kw>
+<kw name="Split To Lines" owner="String">
+<msg time="2026-01-30T17:03:37.956527" level="INFO">6 lines returned.</msg>
+<msg time="2026-01-30T17:03:37.956805" level="INFO">${lines} = ['email,password,expected', '# For login success, you will use emails generated during registration', '# For failure, you can put random or wrong emails', 'jdoe12345@gmail.com,Pass@123,success', 'jsmi...</msg>
+<var>${lines}</var>
+<arg>${csv_content}</arg>
+<doc>Splits the given string to lines.</doc>
+<status status="PASS" start="2026-01-30T17:03:37.955961" elapsed="0.000917"/>
+</kw>
+<for flavor="IN">
+<iter>
+<kw name="Continue For Loop If" owner="BuiltIn">
+<msg time="2026-01-30T17:03:37.961933" level="INFO">Continuing for loop from the next iteration.</msg>
+<arg>'email' in '${line}'</arg>
+<doc>Skips the current FOR loop iteration if the ``condition`` is true.</doc>
+<status status="PASS" start="2026-01-30T17:03:37.958635" elapsed="0.003556"/>
+</kw>
+<kw name="Split String" owner="String">
+<var>${data}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="NOT RUN" start="2026-01-30T17:03:37.962819" elapsed="0.000140"/>
+</kw>
+<kw name="Login User">
+<arg>${data[0]}</arg>
+<arg>${data[1]}</arg>
+<arg>${data[2]}</arg>
+<status status="NOT RUN" start="2026-01-30T17:03:37.964759" elapsed="0.000951"/>
+</kw>
+<var name="${line}">email,password,expected</var>
+<status status="PASS" start="2026-01-30T17:03:37.958143" elapsed="0.008699"/>
+</iter>
+<iter>
+<kw name="Continue For Loop If" owner="BuiltIn">
+<msg time="2026-01-30T17:03:37.969435" level="INFO">Continuing for loop from the next iteration.</msg>
+<arg>'email' in '${line}'</arg>
+<doc>Skips the current FOR loop iteration if the ``condition`` is true.</doc>
+<status status="PASS" start="2026-01-30T17:03:37.968260" elapsed="0.001411"/>
+</kw>
+<kw name="Split String" owner="String">
+<var>${data}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="NOT RUN" start="2026-01-30T17:03:37.970128" elapsed="0.000086"/>
+</kw>
+<kw name="Login User">
+<arg>${data[0]}</arg>
+<arg>${data[1]}</arg>
+<arg>${data[2]}</arg>
+<status status="NOT RUN" start="2026-01-30T17:03:37.970586" elapsed="0.000077"/>
+</kw>
+<var name="${line}"># For login success, you will use emails generated during registration</var>
+<status status="PASS" start="2026-01-30T17:03:37.967862" elapsed="0.002905"/>
+</iter>
+<iter>
+<kw name="Continue For Loop If" owner="BuiltIn">
+<msg time="2026-01-30T17:03:37.972002" level="INFO">Continuing for loop from the next iteration.</msg>
+<arg>'email' in '${line}'</arg>
+<doc>Skips the current FOR loop iteration if the ``condition`` is true.</doc>
+<status status="PASS" start="2026-01-30T17:03:37.971221" elapsed="0.000957"/>
+</kw>
+<kw name="Split String" owner="String">
+<var>${data}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="NOT RUN" start="2026-01-30T17:03:37.972454" elapsed="0.000079"/>
+</kw>
+<kw name="Login User">
+<arg>${data[0]}</arg>
+<arg>${data[1]}</arg>
+<arg>${data[2]}</arg>
+<status status="NOT RUN" start="2026-01-30T17:03:37.972897" elapsed="0.000063"/>
+</kw>
+<var name="${line}"># For failure, you can put random or wrong emails</var>
+<status status="PASS" start="2026-01-30T17:03:37.971014" elapsed="0.002045"/>
+</iter>
+<iter>
+<kw name="Continue For Loop If" owner="BuiltIn">
+<arg>'email' in '${line}'</arg>
+<doc>Skips the current FOR loop iteration if the ``condition`` is true.</doc>
+<status status="PASS" start="2026-01-30T17:03:37.973523" elapsed="0.000734"/>
+</kw>
+<kw name="Split String" owner="String">
+<msg time="2026-01-30T17:03:37.974989" level="INFO">${data} = ['jdoe12345@gmail.com', 'Pass@123', 'success']</msg>
+<var>${data}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-30T17:03:37.974550" elapsed="0.000497"/>
+</kw>
+<kw name="Login User">
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:37.978397" level="INFO">Opening url 'https://tutorialsninja.com/demo/index.php?route=account/login'</msg>
+<arg>${URL_LOGIN}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2026-01-30T17:03:37.977844" elapsed="0.226387"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>id:input-email</arg>
+<arg>timeout=20s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-01-30T17:03:38.204478" elapsed="0.028718"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:38.393072" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="login_page_loaded.png"&gt;&lt;img src="login_page_loaded.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>login_page_loaded.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2026-01-30T17:03:38.233405" elapsed="0.159810"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:38.393836" level="INFO">Typing text 'jdoe12345@gmail.com' into text field 'id:input-email'.</msg>
+<arg>id:input-email</arg>
+<arg>${email}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-30T17:03:38.393472" elapsed="0.148703"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:38.542921" level="INFO">Typing text 'Pass@123' into text field 'id:input-password'.</msg>
+<arg>id:input-password</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-30T17:03:38.542439" elapsed="0.123168"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:38.832296" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="login_form_filled_jdoe12345%40gmail.com.png"&gt;&lt;img src="login_form_filled_jdoe12345%40gmail.com.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>login_form_filled_${email}.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2026-01-30T17:03:38.665976" elapsed="0.166467"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:38.832976" level="INFO">Clicking button 'xpath://input[@value='Login']'.</msg>
+<arg>xpath://input[@value='Login']</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-30T17:03:38.832686" elapsed="0.749211"/>
+</kw>
+<kw name="Verify Login Outcome">
+<if>
+<branch type="IF" condition="'${expected}' == 'success'">
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>My Account</arg>
+<arg>timeout=10s</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2026-01-30T17:03:39.583392" elapsed="0.017259"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:39.760944" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="login_success_jdoe12345%40gmail.com.png"&gt;&lt;img src="login_success_jdoe12345%40gmail.com.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>login_success_${email}.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2026-01-30T17:03:39.600968" elapsed="0.160135"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:39.761616" level="INFO">Opening url 'https://tutorialsninja.com/demo/index.php?route=account/logout'</msg>
+<arg>https://tutorialsninja.com/demo/index.php?route=account/logout</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2026-01-30T17:03:39.761422" elapsed="0.221776"/>
+</kw>
+<status status="PASS" start="2026-01-30T17:03:39.582997" elapsed="0.400375"/>
+</branch>
+<branch type="ELSE">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>css:.alert-danger</arg>
+<arg>timeout=10s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" start="2026-01-30T17:03:39.983802" elapsed="0.000051"/>
+</kw>
+<kw name="Get Text" owner="SeleniumLibrary">
+<var>${alert_text}</var>
+<arg>css:.alert-danger</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-01-30T17:03:39.984000" elapsed="0.000036"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>'Warning: No match for E-Mail Address and/or Password.' in '${alert_text}' or 'Warning: Your account has exceeded allowed number of login attempts.' in '${alert_text}'</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="NOT RUN" start="2026-01-30T17:03:39.984164" elapsed="0.000037"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<arg>login_failure_alert_${email}.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="NOT RUN" start="2026-01-30T17:03:39.984336" elapsed="0.000036"/>
+</kw>
+<status status="NOT RUN" start="2026-01-30T17:03:39.983503" elapsed="0.000925"/>
+</branch>
+<status status="PASS" start="2026-01-30T17:03:39.582942" elapsed="0.401545"/>
+</if>
+<arg>${email}</arg>
+<arg>${expected}</arg>
+<status status="PASS" start="2026-01-30T17:03:39.582419" elapsed="0.402150"/>
+</kw>
+<arg>${data[0]}</arg>
+<arg>${data[1]}</arg>
+<arg>${data[2]}</arg>
+<status status="PASS" start="2026-01-30T17:03:37.975402" elapsed="2.009248"/>
+</kw>
+<var name="${line}">jdoe12345@gmail.com,Pass@123,success</var>
+<status status="PASS" start="2026-01-30T17:03:37.973296" elapsed="2.011436"/>
+</iter>
+<iter>
+<kw name="Continue For Loop If" owner="BuiltIn">
+<arg>'email' in '${line}'</arg>
+<doc>Skips the current FOR loop iteration if the ``condition`` is true.</doc>
+<status status="PASS" start="2026-01-30T17:03:39.985157" elapsed="0.000862"/>
+</kw>
+<kw name="Split String" owner="String">
+<msg time="2026-01-30T17:03:39.986758" level="INFO">${data} = ['jsmith54321@gmail.com', 'WrongPass', 'failure']</msg>
+<var>${data}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-30T17:03:39.986371" elapsed="0.000437"/>
+</kw>
+<kw name="Login User">
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:39.990891" level="INFO">Opening url 'https://tutorialsninja.com/demo/index.php?route=account/login'</msg>
+<arg>${URL_LOGIN}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2026-01-30T17:03:39.990485" elapsed="0.275063"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>id:input-email</arg>
+<arg>timeout=20s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-01-30T17:03:40.265753" elapsed="0.033272"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:40.452905" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="login_page_loaded.png"&gt;&lt;img src="login_page_loaded.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>login_page_loaded.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2026-01-30T17:03:40.299678" elapsed="0.153403"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:40.453797" level="INFO">Typing text 'jsmith54321@gmail.com' into text field 'id:input-email'.</msg>
+<arg>id:input-email</arg>
+<arg>${email}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-30T17:03:40.453359" elapsed="0.301188"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:40.755436" level="INFO">Typing text 'WrongPass' into text field 'id:input-password'.</msg>
+<arg>id:input-password</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-30T17:03:40.754923" elapsed="0.277575"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:41.226014" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="login_form_filled_jsmith54321%40gmail.com.png"&gt;&lt;img src="login_form_filled_jsmith54321%40gmail.com.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>login_form_filled_${email}.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2026-01-30T17:03:41.032824" elapsed="0.193371"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:41.226856" level="INFO">Clicking button 'xpath://input[@value='Login']'.</msg>
+<arg>xpath://input[@value='Login']</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-30T17:03:41.226513" elapsed="0.748401"/>
+</kw>
+<kw name="Verify Login Outcome">
+<if>
+<branch type="IF" condition="'${expected}' == 'success'">
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>My Account</arg>
+<arg>timeout=10s</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="NOT RUN" start="2026-01-30T17:03:41.976046" elapsed="0.000038"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<arg>login_success_${email}.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="NOT RUN" start="2026-01-30T17:03:41.976219" elapsed="0.000034"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<arg>https://tutorialsninja.com/demo/index.php?route=account/logout</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="NOT RUN" start="2026-01-30T17:03:41.976437" elapsed="0.000072"/>
+</kw>
+<status status="NOT RUN" start="2026-01-30T17:03:41.975804" elapsed="0.000795"/>
+</branch>
+<branch type="ELSE">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>css:.alert-danger</arg>
+<arg>timeout=10s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-01-30T17:03:41.977115" elapsed="0.027697"/>
+</kw>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:42.026153" level="INFO">${alert_text} = Warning: No match for E-Mail Address and/or Password.</msg>
+<var>${alert_text}</var>
+<arg>css:.alert-danger</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-30T17:03:42.005000" elapsed="0.021222"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>'Warning: No match for E-Mail Address and/or Password.' in '${alert_text}' or 'Warning: Your account has exceeded allowed number of login attempts.' in '${alert_text}'</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-01-30T17:03:42.026400" elapsed="0.000581"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2026-01-30T17:03:42.164503" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="login_failure_alert_jsmith54321%40gmail.com.png"&gt;&lt;img src="login_failure_alert_jsmith54321%40gmail.com.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>login_failure_alert_${email}.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2026-01-30T17:03:42.027229" elapsed="0.137386"/>
+</kw>
+<status status="PASS" start="2026-01-30T17:03:41.976727" elapsed="0.187968"/>
+</branch>
+<status status="PASS" start="2026-01-30T17:03:41.975766" elapsed="0.188984"/>
+</if>
+<arg>${email}</arg>
+<arg>${expected}</arg>
+<status status="PASS" start="2026-01-30T17:03:41.975378" elapsed="0.189443"/>
+</kw>
+<arg>${data[0]}</arg>
+<arg>${data[1]}</arg>
+<arg>${data[2]}</arg>
+<status status="PASS" start="2026-01-30T17:03:39.987331" elapsed="2.177564"/>
+</kw>
+<var name="${line}">jsmith54321@gmail.com,WrongPass,failure</var>
+<status status="PASS" start="2026-01-30T17:03:39.984972" elapsed="2.179981"/>
+</iter>
+<iter>
+<kw name="Continue For Loop If" owner="BuiltIn">
+<arg>'email' in '${line}'</arg>
+<doc>Skips the current FOR loop iteration if the ``condition`` is true.</doc>
+<status status="PASS" start="2026-01-30T17:03:42.165216" elapsed="0.000408"/>
+</kw>
+<kw name="Split String" owner="String">
+<msg time="2026-01-30T17:03:42.166063" level="INFO">${data} = ['arimardansingh546.com', 'Ari@123']</msg>
+<var>${data}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-30T17:03:42.165752" elapsed="0.000362"/>
+</kw>
+<kw name="Login User">
+<msg time="2026-01-30T17:03:42.167536" level="FAIL">Resolving variable '${data[2]}' failed: IndexError: list index out of range</msg>
+<arg>${data[0]}</arg>
+<arg>${data[1]}</arg>
+<arg>${data[2]}</arg>
+<status status="FAIL" start="2026-01-30T17:03:42.166314" elapsed="0.001278">Resolving variable '${data[2]}' failed: IndexError: list index out of range</status>
+</kw>
+<var name="${line}">arimardansingh546.com,Ari@123</var>
+<status status="FAIL" start="2026-01-30T17:03:42.165095" elapsed="0.002598">Resolving variable '${data[2]}' failed: IndexError: list index out of range</status>
+</iter>
+<var>${line}</var>
+<value>@{lines}</value>
+<status status="FAIL" start="2026-01-30T17:03:37.957476" elapsed="4.210318">Resolving variable '${data[2]}' failed: IndexError: list index out of range</status>
+</for>
+<doc>Tests login functionality.</doc>
+<status status="FAIL" start="2026-01-30T17:03:37.953609" elapsed="4.214534">Resolving variable '${data[2]}' failed: IndexError: list index out of range</status>
+</test>
+<kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-01-30T17:03:42.169256" elapsed="2.264580"/>
+</kw>
+<status status="FAIL" start="2026-01-30T17:03:23.046804" elapsed="21.387244"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="TC003 Test" id="s1" pass="1" fail="1" skip="0">TC003 Test</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-01-30T17:03:23.037644" level="WARN">Error in file 'C:\Users\Lenovo\PycharmProjects\PythonProject1\Day13\class\Tutorialpoint_testing\TC003_Test.robot' on line 38: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
+</errors>
+</robot>
