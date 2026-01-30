@@ -1,0 +1,6 @@
+email,password,expected
+# For login success, you will use emails generated during registration
+# For failure, you can put random or wrong emails
+jdoe12345@gmail.com,Pass@123,success
+jsmith54321@gmail.com,WrongPass,failure
+arimardansingh546.com,Ari@123
