@@ -1,0 +1,197 @@
+{
+  "id": "4642b557-c4d5-43fd-8efc-3ac9b2b5273e",
+  "version": "2.0",
+  "name": "Basic_Selenium_Lab",
+  "url": "https://demo.opencartmart.com/ordercoupon/",
+  "tests": [{
+    "id": "68e29371-e281-4110-865c-6a28cd596a44",
+    "name": "Lab1",
+    "commands": [{
+      "id": "31a0f831-f456-42ec-9bc5-5f817b5b7cdc",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ac431c9-b91c-4b49-9162-fb05525cdf50",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1051x797",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc7e8783-88be-4ae7-94ab-65dda5c58532",
+      "comment": "",
+      "command": "click",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1af64e2-665b-4066-b5f0-75b713c1d65f",
+      "comment": "",
+      "command": "type",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "selenium"
+    }, {
+      "id": "ca08ac34-0279-47cc-bcbf-34ec0a8d968c",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnK",
+      "targets": [
+        ["name=btnK", "name"],
+        ["css=center:nth-child(2) > .gNO89b", "css:finder"],
+        ["xpath=//input[@name='btnK']", "xpath:attributes"],
+        ["xpath=//center/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e16405c2-6924-4673-8b90-4b081fa056da",
+    "name": "Lab2",
+    "commands": [{
+      "id": "7b62c487-28a1-4a4e-893e-6d251a7e398e",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.opencartmart.com/ordercoupon/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0f997059-fbb0-4135-916f-829c89f55ebc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1052x799",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1afbd02-7524-4cd2-b9b9-b81db070b317",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Laptops & Notebooks",
+      "targets": [
+        ["linkText=Laptops & Notebooks", "linkText"],
+        ["css=.nav > .dropdown:nth-child(2) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Laptops & Notebooks')]", "xpath:link"],
+        ["xpath=//nav[@id='menu']/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://demo.opencartmart.com/ordercoupon/index.php?route=product/category&path=18')]", "xpath:href"],
+        ["xpath=//nav/div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Laptops & Notebooks')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "47bf0f86-e330-4fd1-9bfc-f88963bbbb3c",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": "(wait 1 second)"
+    }, {
+      "id": "c3b80948-963a-4bc9-9cf5-f241da59aeda",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Windows (0)",
+      "targets": [
+        ["linkText=Windows (0)", "linkText"],
+        ["css=.open li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Windows (0)')]", "xpath:link"],
+        ["xpath=//nav[@id='menu']/div[2]/ul/li[2]/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://demo.opencartmart.com/ordercoupon/index.php?route=product/category&path=18_45')]", "xpath:href"],
+        ["xpath=//li[2]/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Windows (0)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "19d36759-9496-4c90-9556-d85925657a80",
+    "name": "Lab3",
+    "commands": [{
+      "id": "2430c185-839b-457d-93f3-ea37f7b7a25b",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.opencartmart.com/ordercoupon/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a821729-fba2-43b6-9d8d-24b1eeb99059",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1051x797",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0de6a916-14d8-48fe-a512-2960c1722521",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Desktops",
+      "targets": [
+        ["linkText=Desktops", "linkText"],
+        ["css=.dropdown:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Desktops')]", "xpath:link"],
+        ["xpath=//nav[@id='menu']/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://demo.opencartmart.com/ordercoupon/index.php?route=product/category&path=20')]", "xpath:href"],
+        ["xpath=//nav/div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Desktops')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "12fe1c8c-739a-49bb-9b97-f4238d226ca2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mac (1)",
+      "targets": [
+        ["linkText=Mac (1)", "linkText"],
+        ["css=.open li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Mac (1)')]", "xpath:link"],
+        ["xpath=//nav[@id='menu']/div[2]/ul/li/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://demo.opencartmart.com/ordercoupon/index.php?route=product/category&path=20_27')]", "xpath:href"],
+        ["xpath=//li/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mac (1)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ccb7306-dfa3-4e79-bbbb-cf27101b0002",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": "(wait 1 second)"
+    }, {
+      "id": "77f05f42-4f08-41f5-adcf-38e4aadf4949",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-sort",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "442a0847-c0e0-4df7-adc3-7b7ed5eb8fa9",
+      "comment": "",
+      "command": "select",
+      "target": "id=input-sort",
+      "targets": [],
+      "value": "label=Name (A - Z)"
+    }]
+  }],
+  "suites": [{
+    "id": "eafe8e87-ad2d-4258-8c5b-929fe2190ffe",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["68e29371-e281-4110-865c-6a28cd596a44"]
+  }],
+  "urls": ["https://www.google.com/", "http://demo.opencart.com/", "https://demoqa.com/", "https://demo.opencartmart.com/ordercoupon/"],
+  "plugins": []
+}
