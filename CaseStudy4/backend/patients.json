@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Arimardan Singh",
+        "age": "20",
+        "gender": "Male",
+        "contact": "2356467042",
+        "disease": "Fever",
+        "doctor": "Dr. Smith"
+    },
+    {
+        "name": "Rajveer Singh ",
+        "age": "52",
+        "gender": "Male",
+        "contact": "3153627345",
+        "disease": "Cold",
+        "doctor": "Dr. John"
+    },
+    {
+        "name": "Robot User",
+        "age": "30",
+        "gender": "Male",
+        "contact": "9999999999",
+        "disease": "Fever",
+        "doctor": "Dr. Smith"
+    }
+]
