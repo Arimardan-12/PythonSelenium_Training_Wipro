@@ -1,0 +1,15 @@
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+import time
+
+from selenium.webdriver.support.select import Select
+
+driver=webdriver.Chrome()
+driver.get("https://letcode.in/window")
+time.sleep(2)
+driver.find_element(By.ID,"multi").click()
+windows=driver.window_handles
+for child in windows:
+    driver.switch_to.window(child)
+    time.sleep(2)
+    print("tile:",driver.current_url)
