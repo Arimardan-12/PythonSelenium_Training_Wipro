@@ -18,9 +18,8 @@ def test_lab5(driver):
     base_url = "https://tutorialsninja.com/demo/"
     wait = WebDriverWait(driver, 10)
 
-    # ---------------------
+
     # Test data
-    # ---------------------
     first_name_33 = "A" * 33
     last_name_33 = "B" * 33
     valid_first_name = "Arimardan"
@@ -29,13 +28,8 @@ def test_lab5(driver):
     telephone = "9876543210"
     password = "Test@123"
 
-    # ---------------------
-    # Launch site
-    # ---------------------
     driver.get(base_url)
     assert "Your Store" in driver.title
-
-    # Navigate to Register page
     driver.find_element(By.LINK_TEXT, "My Account").click()
     driver.find_element(By.LINK_TEXT, "Register").click()
 
@@ -44,18 +38,16 @@ def test_lab5(driver):
     ).text
     assert heading == "Register Account"
 
-    # ---------------------
+
     # Test Privacy Policy warning
-    # ---------------------
     driver.find_element(By.XPATH, "//input[@value='Continue']").click()
     warning = wait.until(
         EC.visibility_of_element_located((By.CSS_SELECTOR, ".alert-danger"))
     ).text
     assert "Privacy Policy" in warning
 
-    # ---------------------
+
     # Fill form with too-long names to trigger validation
-    # ---------------------
     driver.find_element(By.ID, "input-firstname").send_keys(first_name_33)
     driver.find_element(By.ID, "input-lastname").send_keys(last_name_33)
     driver.find_element(By.ID, "input-email").send_keys(email)
@@ -72,9 +64,8 @@ def test_lab5(driver):
     assert "between 1 and 32 characters" in fname_error
     assert "between 1 and 32 characters" in lname_error
 
-    # ---------------------
+
     # Fill valid data and register
-    # ---------------------
     driver.find_element(By.ID, "input-firstname").clear()
     driver.find_element(By.ID, "input-firstname").send_keys(valid_first_name)
 
@@ -83,9 +74,7 @@ def test_lab5(driver):
 
     driver.find_element(By.XPATH, "//input[@value='Continue']").click()
 
-    # ---------------------
     # Verify account creation
-    # ---------------------
     success_text = wait.until(
         EC.visibility_of_element_located((By.XPATH, "//div[@id='content']//h1"))
     ).text
