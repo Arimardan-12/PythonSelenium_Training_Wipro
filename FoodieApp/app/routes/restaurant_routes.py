@@ -25,3 +25,13 @@ def get_restaurant(restaurant_id):
     r = service.get_restaurant(restaurant_id)
     if r: return jsonify(r), 200
     return jsonify({"error":"Restaurant not found"}), 404
+
+@restaurant_bp.get("/search")
+def search_restaurants():
+    name = request.args.get("name")
+    location = request.args.get("location")
+    dish = request.args.get("dish")
+    rating = request.args.get("rating")
+
+    results = service.search_restaurants(name, location, dish, rating)
+    return jsonify(results), 200
