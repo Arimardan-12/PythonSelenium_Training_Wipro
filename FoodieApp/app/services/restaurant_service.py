@@ -24,3 +24,33 @@ class RestaurantService:
 
     def get_restaurant(self, rid):
         return self.restaurants.get(rid)
+
+    def search_restaurants(self, name=None, location=None, dish=None, rating=None):
+        results = []
+
+        for restaurant in self.restaurants.values():
+            restaurant_name = str(restaurant.get("name", ""))
+            restaurant_location = str(restaurant.get("location", ""))
+
+            if name and name.lower() not in restaurant_name.lower():
+                continue
+
+            if location and location.lower() not in restaurant_location.lower():
+                continue
+
+            if rating:
+                try:
+                    if float(restaurant.get("rating", 0)) < float(rating):
+                        continue
+                except:
+                    pass
+
+            # Dish filtering (if restaurant has dishes list)
+            if dish:
+                dishes = restaurant.get("dishes", [])
+                if not any(dish.lower() in str(d.get("name", "")).lower() for d in dishes if isinstance(d, dict)):
+                    continue
+
+            results.append(restaurant)
+
+        return results
