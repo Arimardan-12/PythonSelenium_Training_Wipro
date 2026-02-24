@@ -1,0 +1,2 @@
+*** Test Cases ***;${firstname};${lastname};${email};${phone};${password};${product};${quantity}
+User 1;Arimardan;Singh;arimardan.singh.qa@example.com;9700000001;Password134;iPhone;1
